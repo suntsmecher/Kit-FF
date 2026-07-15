@@ -6,17 +6,17 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
-    /* Bundler resolution (Fixes the module resolution & babel errors) */
+    /* Bundler resolution */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     
-    /* JSX (Fixes the "Cannot use JSX" errors) */
+    /* JSX */
     "jsx": "react-jsx",
 
-    /* Linting / Imports (Fixes the React default import errors) */
+    /* Linting / Imports */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -24,6 +24,5 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true
   },
-  "include": ["src", "vite.config.ts"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src", "vite.config.ts"]
 }
